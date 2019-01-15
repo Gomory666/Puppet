@@ -1,6 +1,9 @@
 
 ######################################### Puppet CLIENT #########################################
 
+## Nameserver
+echo nameserver 8.8.8.8 > /etc/resolv.conf
+
 #Stop resolvconf
 sudo systemctl stop service.resolvconf
 
